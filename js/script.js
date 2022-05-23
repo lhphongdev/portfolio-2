@@ -1,7 +1,14 @@
 /* typing animation */
 
 var typed = new Typed(".typing",{
-    strings:["web designer","Web Developer","Graphic Designer","Freelancer"],
+    strings:["Web Designer","Web Developer","Graphic Designer","Freelancer"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+})
+
+var typed = new Typed(".typings",{
+    strings:["Web Designer","Web Developer","Graphic Designer","Freelancer"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
